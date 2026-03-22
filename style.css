@@ -14,3 +14,23 @@ body {
 }
 
 /* add styles here */
+.card {
+  display: inline-block; 
+  width: calc(33% - 10px);
+  margin: 10px 5px;
+  background-color: white;
+  float: none; 
+}
+main {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+}
+.card {
+  width: 32%; 
+}
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
